@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D97C52D24CC7CAF007BD4D2 /* GridLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D97C52C24CC7CAF007BD4D2 /* GridLayout.storyboard */; };
+		0D97C53124CDBC82007BD4D2 /* PinterestLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97C53024CDBC82007BD4D2 /* PinterestLayoutViewController.swift */; };
+		0D97C53324CDBDAA007BD4D2 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97C53224CDBDAA007BD4D2 /* PinterestLayout.swift */; };
 		A16C97BA24C79B3000175E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97B924C79B3000175E62 /* AppDelegate.swift */; };
 		A16C97BC24C79B3000175E62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97BB24C79B3000175E62 /* SceneDelegate.swift */; };
 		A16C97BE24C79B3000175E62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97BD24C79B3000175E62 /* MainViewController.swift */; };
 		A16C97C124C79B3000175E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16C97BF24C79B3000175E62 /* Main.storyboard */; };
 		A16C97C324C79B3100175E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16C97C224C79B3100175E62 /* Assets.xcassets */; };
-		A16C97C624C79B3100175E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16C97C424C79B3100175E62 /* LaunchScreen.storyboard */; };
-		A16C97D124C79B3100175E62 /* CollectionViewLayoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97D024C79B3100175E62 /* CollectionViewLayoutsTests.swift */; };
-		A16C97DC24C79B3100175E62 /* CollectionViewLayoutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97DB24C79B3100175E62 /* CollectionViewLayoutsUITests.swift */; };
 		A16C97EC24C7A34100175E62 /* GridLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97EB24C7A34100175E62 /* GridLayoutViewController.swift */; };
 		A16C97EE24C7A3B500175E62 /* CompositionalLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97ED24C7A3B500175E62 /* CompositionalLayoutViewController.swift */; };
 /* End PBXBuildFile section */
@@ -37,20 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D97C52C24CC7CAF007BD4D2 /* GridLayout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GridLayout.storyboard; sourceTree = "<group>"; };
+		0D97C53024CDBC82007BD4D2 /* PinterestLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayoutViewController.swift; sourceTree = "<group>"; };
+		0D97C53224CDBDAA007BD4D2 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		A16C97B624C79B3000175E62 /* CollectionViewLayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewLayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16C97B924C79B3000175E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A16C97BB24C79B3000175E62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A16C97BD24C79B3000175E62 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A16C97C024C79B3000175E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A16C97C224C79B3100175E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A16C97C524C79B3100175E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16C97C724C79B3100175E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16C97CC24C79B3100175E62 /* CollectionViewLayoutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewLayoutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A16C97D024C79B3100175E62 /* CollectionViewLayoutsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutsTests.swift; sourceTree = "<group>"; };
-		A16C97D224C79B3100175E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16C97D724C79B3100175E62 /* CollectionViewLayoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewLayoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A16C97DB24C79B3100175E62 /* CollectionViewLayoutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutsUITests.swift; sourceTree = "<group>"; };
-		A16C97DD24C79B3100175E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16C97EB24C7A34100175E62 /* GridLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutViewController.swift; sourceTree = "<group>"; };
 		A16C97ED24C7A3B500175E62 /* CompositionalLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,12 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D97C52B24CC7BF5007BD4D2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A16C97B924C79B3000175E62 /* AppDelegate.swift */,
+				A16C97BB24C79B3000175E62 /* SceneDelegate.swift */,
+				A16C97BD24C79B3000175E62 /* MainViewController.swift */,
+				A16C97BF24C79B3000175E62 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0D97C52F24CDBC65007BD4D2 /* PinterestLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0D97C53224CDBDAA007BD4D2 /* PinterestLayout.swift */,
+				0D97C53024CDBC82007BD4D2 /* PinterestLayoutViewController.swift */,
+			);
+			path = PinterestLayout;
+			sourceTree = "<group>";
+		};
 		A16C97AD24C79B3000175E62 = {
 			isa = PBXGroup;
 			children = (
 				A16C97B824C79B3000175E62 /* CollectionViewLayouts */,
-				A16C97CF24C79B3100175E62 /* CollectionViewLayoutsTests */,
-				A16C97DA24C79B3100175E62 /* CollectionViewLayoutsUITests */,
 				A16C97B724C79B3000175E62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,41 +119,21 @@
 		A16C97B824C79B3000175E62 /* CollectionViewLayouts */ = {
 			isa = PBXGroup;
 			children = (
+				0D97C52B24CC7BF5007BD4D2 /* Main */,
 				A16C97E924C7A18E00175E62 /* GridLayout */,
+				0D97C52F24CDBC65007BD4D2 /* PinterestLayout */,
 				A16C97EA24C7A1A300175E62 /* CompositionalLayout */,
-				A16C97B924C79B3000175E62 /* AppDelegate.swift */,
-				A16C97BB24C79B3000175E62 /* SceneDelegate.swift */,
-				A16C97BD24C79B3000175E62 /* MainViewController.swift */,
-				A16C97BF24C79B3000175E62 /* Main.storyboard */,
 				A16C97C224C79B3100175E62 /* Assets.xcassets */,
-				A16C97C424C79B3100175E62 /* LaunchScreen.storyboard */,
 				A16C97C724C79B3100175E62 /* Info.plist */,
 			);
 			path = CollectionViewLayouts;
-			sourceTree = "<group>";
-		};
-		A16C97CF24C79B3100175E62 /* CollectionViewLayoutsTests */ = {
-			isa = PBXGroup;
-			children = (
-				A16C97D024C79B3100175E62 /* CollectionViewLayoutsTests.swift */,
-				A16C97D224C79B3100175E62 /* Info.plist */,
-			);
-			path = CollectionViewLayoutsTests;
-			sourceTree = "<group>";
-		};
-		A16C97DA24C79B3100175E62 /* CollectionViewLayoutsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A16C97DB24C79B3100175E62 /* CollectionViewLayoutsUITests.swift */,
-				A16C97DD24C79B3100175E62 /* Info.plist */,
-			);
-			path = CollectionViewLayoutsUITests;
 			sourceTree = "<group>";
 		};
 		A16C97E924C7A18E00175E62 /* GridLayout */ = {
 			isa = PBXGroup;
 			children = (
 				A16C97EB24C7A34100175E62 /* GridLayoutViewController.swift */,
+				0D97C52C24CC7CAF007BD4D2 /* GridLayout.storyboard */,
 			);
 			path = GridLayout;
 			sourceTree = "<group>";
@@ -254,9 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16C97C624C79B3100175E62 /* LaunchScreen.storyboard in Resources */,
 				A16C97C324C79B3100175E62 /* Assets.xcassets in Resources */,
 				A16C97C124C79B3000175E62 /* Main.storyboard in Resources */,
+				0D97C52D24CC7CAF007BD4D2 /* GridLayout.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +280,8 @@
 				A16C97EC24C7A34100175E62 /* GridLayoutViewController.swift in Sources */,
 				A16C97EE24C7A3B500175E62 /* CompositionalLayoutViewController.swift in Sources */,
 				A16C97BE24C79B3000175E62 /* MainViewController.swift in Sources */,
+				0D97C53324CDBDAA007BD4D2 /* PinterestLayout.swift in Sources */,
+				0D97C53124CDBC82007BD4D2 /* PinterestLayoutViewController.swift in Sources */,
 				A16C97BA24C79B3000175E62 /* AppDelegate.swift in Sources */,
 				A16C97BC24C79B3000175E62 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16C97D124C79B3100175E62 /* CollectionViewLayoutsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +298,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16C97DC24C79B3100175E62 /* CollectionViewLayoutsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,14 +323,6 @@
 				A16C97C024C79B3000175E62 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A16C97C424C79B3100175E62 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A16C97C524C79B3100175E62 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

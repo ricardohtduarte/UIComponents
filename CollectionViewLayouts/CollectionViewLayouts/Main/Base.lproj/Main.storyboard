@@ -33,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="HCl-FH-uAD">
-                                <rect key="frame" x="32" y="337.5" width="350" height="221"/>
+                                <rect key="frame" x="32" y="267" width="350" height="362"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlV-lb-zsC">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="80"/>
@@ -56,11 +56,25 @@
                                             <constraint firstAttribute="height" constant="80" id="0pF-D9-Dn2"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                        <state key="normal" title="Compositional Layout">
+                                        <state key="normal" title="Pinterest Layout">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="didTapLayout:" destination="viE-JZ-txT" eventType="touchUpInside" id="mx6-gc-qDK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZH-0d-tld" userLabel="CompositionalLayout">
+                                        <rect key="frame" x="0.0" y="282" width="350" height="80"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="gBL-IZ-Rxk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <state key="normal" title="Compositional Layout">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapLayout:" destination="viE-JZ-txT" eventType="touchUpInside" id="Iwv-lj-Jy6"/>
                                         </connections>
                                     </button>
                                 </subviews>

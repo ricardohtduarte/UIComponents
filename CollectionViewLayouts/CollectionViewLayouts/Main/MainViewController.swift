@@ -20,8 +20,14 @@ class MainViewController: UIViewController {
     }
 
     func navigateToGridLayout() {
-        let gridLayoutViewController = GridLayoutViewController()
+        let storyboard = UIStoryboard(name: "GridLayout", bundle: nil)
+        let gridLayoutViewController = storyboard.instantiateViewController(withIdentifier: "GridLayoutViewController")
         navigationController?.pushViewController(gridLayoutViewController, animated: true)
+    }
+
+    func navigateToPinterestLayout() {
+        let pinterestLayoutViewController = PinterestLayoutViewController()
+        navigationController?.pushViewController(pinterestLayoutViewController, animated: true)
     }
 
     func navigateToCompositionalLayout() {
@@ -35,7 +41,8 @@ class MainViewController: UIViewController {
         }
         switch button.tag {
         case 0: navigateToGridLayout()
-        case 1: navigateToCompositionalLayout()
+        case 1: navigateToPinterestLayout()
+        case 2: navigateToCompositionalLayout()
         default:
             print("Button not recognized")
             fatalError()
