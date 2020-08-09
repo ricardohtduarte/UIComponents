@@ -17,22 +17,35 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureButtons()
     }
 
-    func navigateToGridLayout() {
+
+    @IBOutlet var layoutButtons: [UIButton]!
+
+    private func configureButtons() {
+        layoutButtons.forEach{ $0.layer.cornerRadius = 20 }
+    }
+
+    private func navigateToGridLayout() {
         let storyboard = UIStoryboard(name: "GridLayout", bundle: nil)
         let gridLayoutViewController = storyboard.instantiateViewController(withIdentifier: "GridLayoutViewController")
-        navigationController?.pushViewController(gridLayoutViewController, animated: true)
+        present(gridLayoutViewController, animated: true)
     }
 
-    func navigateToPinterestLayout() {
+    private func navigateToStaggeredLayout() {
+//        let staggeredLayoutViewController = StaggeredLayoutViewController()
+//        present(staggeredLayoutViewController, animated: true)
+    }
+
+    private func navigateToPinterestLayout() {
         let pinterestLayoutViewController = PinterestLayoutViewController()
-        navigationController?.pushViewController(pinterestLayoutViewController, animated: true)
+        present(pinterestLayoutViewController, animated: true)
     }
 
-    func navigateToCompositionalLayout() {
+    private func navigateToCompositionalLayout() {
         let compositionalLayoutViewController = CompositionalLayoutViewController()
-        navigationController?.pushViewController(compositionalLayoutViewController, animated: true)
+        present(compositionalLayoutViewController, animated: true)
     }
 
     @IBAction func didTapLayout(_ sender: Any) {
@@ -41,8 +54,9 @@ class MainViewController: UIViewController {
         }
         switch button.tag {
         case 0: navigateToGridLayout()
-        case 1: navigateToPinterestLayout()
-        case 2: navigateToCompositionalLayout()
+        case 1: navigateToStaggeredLayout()
+        case 2: navigateToPinterestLayout()
+        case 3: navigateToCompositionalLayout()
         default:
             print("Button not recognized")
             fatalError()

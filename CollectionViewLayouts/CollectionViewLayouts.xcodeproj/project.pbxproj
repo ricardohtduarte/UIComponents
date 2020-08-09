@@ -17,6 +17,7 @@
 		A16C97C324C79B3100175E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16C97C224C79B3100175E62 /* Assets.xcassets */; };
 		A16C97EC24C7A34100175E62 /* GridLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97EB24C7A34100175E62 /* GridLayoutViewController.swift */; };
 		A16C97EE24C7A3B500175E62 /* CompositionalLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C97ED24C7A3B500175E62 /* CompositionalLayoutViewController.swift */; };
+		A16D7BA624CF829800DDD98A /* StaggeredLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D7BA524CF829800DDD98A /* StaggeredLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A16C97D724C79B3100175E62 /* CollectionViewLayoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewLayoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16C97EB24C7A34100175E62 /* GridLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutViewController.swift; sourceTree = "<group>"; };
 		A16C97ED24C7A3B500175E62 /* CompositionalLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutViewController.swift; sourceTree = "<group>"; };
+		A16D7BA524CF829800DDD98A /* StaggeredLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				0D97C52B24CC7BF5007BD4D2 /* Main */,
 				A16C97E924C7A18E00175E62 /* GridLayout */,
+				A16D7BA424CF827A00DDD98A /* StaggeredLayout */,
 				0D97C52F24CDBC65007BD4D2 /* PinterestLayout */,
 				A16C97EA24C7A1A300175E62 /* CompositionalLayout */,
 				A16C97C224C79B3100175E62 /* Assets.xcassets */,
@@ -144,6 +147,14 @@
 				A16C97ED24C7A3B500175E62 /* CompositionalLayoutViewController.swift */,
 			);
 			path = CompositionalLayout;
+			sourceTree = "<group>";
+		};
+		A16D7BA424CF827A00DDD98A /* StaggeredLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A16D7BA524CF829800DDD98A /* StaggeredLayoutViewController.swift */,
+			);
+			path = StaggeredLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16C97EC24C7A34100175E62 /* GridLayoutViewController.swift in Sources */,
+				A16D7BA624CF829800DDD98A /* StaggeredLayoutViewController.swift in Sources */,
 				A16C97EE24C7A3B500175E62 /* CompositionalLayoutViewController.swift in Sources */,
 				A16C97BE24C79B3000175E62 /* MainViewController.swift in Sources */,
 				0D97C53324CDBDAA007BD4D2 /* PinterestLayout.swift in Sources */,
