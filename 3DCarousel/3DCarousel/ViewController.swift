@@ -75,6 +75,8 @@ class ViewController: UIViewController {
 
     @objc
     func performPanAction(recognizer: UIPanGestureRecognizer) {
+        // To do: add momentum to rotation
+        let velocity = recognizer.velocity(in: view)
         let xOffset = recognizer.translation(in: view).x
         if recognizer.state == .began {
             currentOffset = 0
